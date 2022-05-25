@@ -11,7 +11,7 @@ public class TestGetVehiclCharcey {
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		EntityTransaction entityTransaction = entityManager.getTransaction();
 		
-		Vehicl vehicl = entityManager.find(Vehicl.class, 0);
+		Vehicl vehicl = entityManager.find(Vehicl.class, 1);
 		if(vehicl != null)
 		{
 			System.out.println("Vehicle Id:"+vehicl.getId());
